@@ -1,0 +1,27 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href="/style1.css" rel="stylesheet" type="text/css">
+	</head>
+	<body onload="typer()">
+		<p id="speech"></p>
+		
+		<script>
+			
+			var i = 0;
+			var txt = 'Distantly a voice calls, Roron! ... Roronoa! The voice quickly approaches the soft murmurs turn into thundering shouts as you are shaken awake. You see a young women, face glistening with tears shouting at you "Roronoa! The village is under attack!"';
+			var speed = 1;
+			
+			function typer() {
+  				if (i < txt.length) {
+    				document.getElementById("speech").innerHTML += txt.charAt(i);
+    				i++;
+    				setTimeout(typer, speed);
+  				} 
+			} 
+			
+		</script>
+		
+	</body>
+</html>

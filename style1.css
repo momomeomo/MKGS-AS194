@@ -1,0 +1,36 @@
+/* Default */
+body {
+	background-color: black;
+	color: white;
+}
+
+
+p {
+	font-size: 1.5em;
+	padding: 1em;
+}
+
+
+/* index */
+#S1 {
+	padding-top: 0.8em;
+	text-align: center;
+	font-size: 2.5em;
+}
+
+#B1 {
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 20px 40px;
+	font-size: 1.5em;
+	text-align: center;
+	text-decoration: none;
+	font-size: 3em;
+	cursor: pointer;
+}
+
+#D1 {
+	padding-top: 7em;
+	text-align: center;
+}
